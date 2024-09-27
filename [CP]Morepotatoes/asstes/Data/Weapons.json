@@ -1,0 +1,199 @@
+{
+    "Changes": [
+        {
+            "LogName": "武器",
+            "Action": "Load",
+            "Target": "Mods/Morepotatoes/Weapons",
+            "FromFile": "assets/Objects/Weapons.png"
+        },
+        {
+            "LogName": "豆芽剑",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:武器英文名.name}}",
+                    "Description": "{{i18n:武器英文名.de}}",
+                    "MinDamage": 1, //最小伤害
+                    "MaxDamage": 2, //最大伤害
+                    "Knockback": 1, //击退数值
+                    "Speed": 1, //速度
+                    "Precision": 0, //精确
+                    "Defense": 1, //防御
+                    "Type": 1匕首2锤3剑,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1, //矿井多少层掉落负数就不掉
+                    "AreaOfEffect": 3, //攻击范围
+                    "CritChance": 0.6, //暴击概率
+                    "CritMultiplier": 3.0, //爆伤
+                    "CanBeLostOnDeath": true, //死亡会不会掉落
+                    "Texture": "Mods/Morepotatoes/Weapons", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "生的土豆锅铲",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:武器英文名.name}}",
+                    "Description": "{{i18n:武器英文名.de}}",
+                    "MinDamage": 1, //最小伤害
+                    "MaxDamage": 2, //最大伤害
+                    "Knockback": 1, //击退数值
+                    "Speed": 1, //速度
+                    "Precision": 0, //精确
+                    "Defense": 1, //防御
+                    "Type": 1匕首2锤3剑,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1, //矿井多少层掉落负数就不掉
+                    "AreaOfEffect": 3, //攻击范围
+                    "CritChance": 0.6, //暴击概率
+                    "CritMultiplier": 3.0, //爆伤
+                    "CanBeLostOnDeath": true, //死亡会不会掉落
+                    "Texture": "Mods/Morepotatoes/Weapons", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "生的土豆锤锤",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:武器英文名.name}}",
+                    "Description": "{{i18n:武器英文名.de}}",
+                    "MinDamage": 1, //最小伤害
+                    "MaxDamage": 2, //最大伤害
+                    "Knockback": 1, //击退数值
+                    "Speed": 1, //速度
+                    "Precision": 0, //精确
+                    "Defense": 1, //防御
+                    "Type": 1匕首2锤3剑,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1, //矿井多少层掉落负数就不掉
+                    "AreaOfEffect": 3, //攻击范围
+                    "CritChance": 0.6, //暴击概率
+                    "CritMultiplier": 3.0, //爆伤
+                    "CanBeLostOnDeath": true, //死亡会不会掉落
+                    "Texture": "Mods/Morepotatoes/Weapons", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "金黄酥脆的土豆锅铲",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:武器英文名.name}}",
+                    "Description": "{{i18n:武器英文名.de}}",
+                    "MinDamage": 1, //最小伤害
+                    "MaxDamage": 2, //最大伤害
+                    "Knockback": 1, //击退数值
+                    "Speed": 1, //速度
+                    "Precision": 0, //精确
+                    "Defense": 1, //防御
+                    "Type": 1匕首2锤3剑,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1, //矿井多少层掉落负数就不掉
+                    "AreaOfEffect": 3, //攻击范围
+                    "CritChance": 0.6, //暴击概率
+                    "CritMultiplier": 3.0, //爆伤
+                    "CanBeLostOnDeath": true, //死亡会不会掉落
+                    "Texture": "Mods/Morepotatoes/Weapons", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "金黄酥脆的土豆锤锤",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:武器英文名.name}}",
+                    "Description": "{{i18n:武器英文名.de}}",
+                    "MinDamage": 1, //最小伤害
+                    "MaxDamage": 2, //最大伤害
+                    "Knockback": 1, //击退数值
+                    "Speed": 1, //速度
+                    "Precision": 0, //精确
+                    "Defense": 1, //防御
+                    "Type": 1匕首2锤3剑,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1, //矿井多少层掉落负数就不掉
+                    "AreaOfEffect": 3, //攻击范围
+                    "CritChance": 0.6, //暴击概率
+                    "CritMultiplier": 3.0, //爆伤
+                    "CanBeLostOnDeath": true, //死亡会不会掉落
+                    "Texture": "Mods/Morepotatoes/Weapons", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "焦黑的土豆锅铲",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:武器英文名.name}}",
+                    "Description": "{{i18n:武器英文名.de}}",
+                    "MinDamage": 1, //最小伤害
+                    "MaxDamage": 2, //最大伤害
+                    "Knockback": 1, //击退数值
+                    "Speed": 1, //速度
+                    "Precision": 0, //精确
+                    "Defense": 1, //防御
+                    "Type": 1匕首2锤3剑,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1, //矿井多少层掉落负数就不掉
+                    "AreaOfEffect": 3, //攻击范围
+                    "CritChance": 0.6, //暴击概率
+                    "CritMultiplier": 3.0, //爆伤
+                    "CanBeLostOnDeath": true, //死亡会不会掉落
+                    "Texture": "Mods/Morepotatoes/Weapons", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "焦黑的土豆锤锤",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:武器英文名.name}}",
+                    "Description": "{{i18n:武器英文名.de}}",
+                    "MinDamage": 1, //最小伤害
+                    "MaxDamage": 2, //最大伤害
+                    "Knockback": 1, //击退数值
+                    "Speed": 1, //速度
+                    "Precision": 0, //精确
+                    "Defense": 1, //防御
+                    "Type": 1匕首2锤3剑,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1, //矿井多少层掉落负数就不掉
+                    "AreaOfEffect": 3, //攻击范围
+                    "CritChance": 0.6, //暴击概率
+                    "CritMultiplier": 3.0, //爆伤
+                    "CanBeLostOnDeath": true, //死亡会不会掉落
+                    "Texture": "Mods/Morepotatoes/Weapons", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}

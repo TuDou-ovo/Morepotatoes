@@ -1,0 +1,18 @@
+﻿{
+    "Name": "更多土豆-CC",
+    "Author": "土豆",
+    "Version": "1.0.0",
+    "Description": "",
+    "UniqueID": "potato.MorepotatoesCC",
+    "UpdateKeys": [],
+    "Dependencies": [
+        {
+            "UniqueID": "",
+            "IsRequired": true
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "1.6.3"
+    }
+}

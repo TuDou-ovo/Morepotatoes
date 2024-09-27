@@ -1,0 +1,748 @@
+{
+  "Changes": [
+    {
+      "LogName": "清雪",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "CatXue": {
+          "DisplayName": "{{i18n:CatXue.name}}",
+          "BirthSeason": 3,
+          "BirthDay": 14,
+          "HomeRegion": "Town",
+          "Language": 0,
+          "Gender": 1,
+          "Age": 1,
+          "Manner": "polite",
+          "SocialAnxiety": "shy",
+          "Optimism": "negative",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": false,
+          "LoveInterest": "CatJiu",
+          "Calendar": "0",
+          "SocialTab": "0",
+          "CanSocialize": true,
+          "CanReceiveGifts": true,
+          "CanGreetNearbyCharacters": false,
+          "CanCommentOnPurchasedShopItems": false,
+          "SocializeConditions": null,
+          "CanVisitIsland": false,
+          "CanVisitIslandCondition": null,
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": 1,
+          "WinterStarParticipant": false,
+          "FriendsAndFamily": {
+            "CatJiu": "{{i18n:CatXue.family}}"
+          },
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_Morepotatoes.Catshop",
+              "Tile": {
+                "X": 2,
+                "Y": 2
+              },
+              "Direction": "2"
+            }
+          ],
+          "TextureName": null,
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true,
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 200.0,
+          "FestivalVanillaActorIndex": 0,
+          "CustomFields": {}
+        }
+      }
+    },
+    {
+      "LogName": "清酒",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "CatJiu": {
+          "DisplayName": "{{i18n:CatJiu.name}}",
+          "BirthSeason": 3,
+          "BirthDay": 14,
+          "HomeRegion": "Town",
+          "Language": 0,
+          "Gender": 1,
+          "Age": 1,
+          "Manner": "neutral",
+          "SocialAnxiety": "neutral",
+          "Optimism": "neutral",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": false,
+          "LoveInterest": "CatXue",
+          "Calendar": "0",
+          "SocialTab": "0",
+          "CanSocialize": true,
+          "CanReceiveGifts": true,
+          "CanGreetNearbyCharacters": false,
+          "CanCommentOnPurchasedShopItems": false,
+          "SocializeConditions": null,
+          "CanVisitIsland": false,
+          "CanVisitIslandCondition": null,
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": 1,
+          "WinterStarParticipant": false,
+          "FriendsAndFamily": {
+            "CatXue": "{{i18n:CatJiu.family}}"
+          },
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_Morepotatoes.Catshop",
+              "Tile": {
+                "X": 4,
+                "Y": 4
+              },
+              "Direction": "2"
+            }
+          ],
+          "TextureName": null,
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true,
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 200.0,
+          "FestivalVanillaActorIndex": 0,
+          "CustomFields": {}
+        }
+      }
+    },
+    {
+      "LogName": "扭蛋机",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Eggtwistingmachine": {
+          "DisplayName": "{{i18n:Eggtwistingmachine.name}}",
+          "HomeRegion": "Other",
+          "Language": 0,
+          "Gender": 2,
+          "Age": 2,
+          "Manner": "neutral",
+          "SocialAnxiety": "neutral",
+          "Optimism": "neutral",
+          "IsDarkSkinned": false, //黑皮改true
+          "CanBeRomanced": false, //婚
+          "LoveInterest": "",
+          "Calendar": "0", //初见前显示？
+          "SocialTab": "0", //初见前显示？
+          "CanSocialize": true, //对话
+          "CanReceiveGifts": false, //送礼
+          "CanGreetNearbyCharacters": false, //问候附近的角色
+          "CanCommentOnPurchasedShopItems": false, //评论已购买的商品
+          "SocializeConditions": null, //初见条件
+          "CanVisitIsland": f, //姜岛
+          "CanVisitIslandCondition": null, //姜岛条件
+          "ExcludeFromIntroductionsQuest": false, //排除在介绍任务之外
+          "ExcludeFromPerfectionScore": false, //从完美分数中排除
+          "EndSlideShow": 1, //结束幻灯片放映
+          "WinterStarParticipant": false, //冬日星礼物参与者
+          "FriendsAndFamily": {}, //朋友和家人
+          "UnlockConditions": null, //解锁条件
+          "SpawnIfMissing": true, //如果丢失则繁殖
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_Morepotatoes.Catshop",
+              "Tile": {
+                "X": 1,
+                "Y": 1
+              },
+              "Direction": "2"
+            }
+          ],
+          "TextureName": null,
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": false, //呼吸
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 200.0,
+          "FestivalVanillaActorIndex": 0,
+          "CustomFields": {}
+        }
+      }
+    },
+    {
+      "LogName": "喜好",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "CatXue": "{{i18n:CatXue.LoveGift}}//{{i18n:CatXue.LikeGift}}//{{i18n:CatXue.DisGift}}//{{i18n:CatXue.HateGift}}//{{i18n:CatXue.NeuGift}}",
+        "CatJiu": "{{i18n:CatJiu.LoveGift}}//{{i18n:CatJiu.LikeGift}}//{{i18n:CatJiu.DisGift}}//{{i18n:CatJiu.HateGift}}//{{i18n:CatJiu.NeuGift}}"
+      }
+    },
+    {
+      "LogName": "清雪-行走图",
+      "Action": "Load",
+      "Target": "Characters/CatXue",
+      "FromFile": "assets/Sprites/CatXue.png"
+    },
+    {
+      "LogName": "清酒-行走图",
+      "Action": "Load",
+      "Target": "Characters/CatJiu",
+      "FromFile": "assets/Sprites/CatJiu.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Eggtwistingmachine",
+      "FromFile": "assets/Sprites/Eggtwistingmachine.png"
+    },
+    {
+      "LogName": "清雪-肖像*64",
+      "Action": "Load",
+      "Target": "Portraits/CatXue",
+      "FromFile": "assets/Portraits/CatXue64.png",
+      "When": {
+        "HasMod |contains=tlitookilakin.HDPortraits": false
+      }
+    },
+    {
+      "LogName": "清酒-肖像*64",
+      "Action": "Load",
+      "Target": "Portraits/CatJiu",
+      "FromFile": "assets/Portraits/CatJiu64.png",
+      "When": {
+        "HasMod |contains=tlitookilakin.HDPortraits": false
+      }
+    },
+    {
+      "LogName": "肖像-尺寸",
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/CatXue, Mods/HDPortraits/CatJiu",
+      "FromFile": "assets/Data/base.json",
+      "When": {
+        "HasMod |contains=tlitookilakin.HDPortraits": true
+      }
+    },
+    {
+      "LogName": "肖像-文件",
+      "Action": "Load",
+      "Target": "Mods/Twosmallballs/CatXue, Mods/Twosmallballs/CatJiu",
+      "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+      "When": {
+        "HasMod |contains=tlitookilakin.HDPortraits": true
+      }
+    },
+    {
+      "LogName": "肖像",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/CatXue, Mods/HDPortraits/CatJiu",
+      "Entries": {
+        "Portrait": "Mods/Twosmallballs/{{TargetWithoutPath}}"
+      },
+      "When": {
+        "HasMod |contains=tlitookilakin.HDPortraits": true
+      }
+    },
+    {
+      "LogName": "行程-Empty",
+      "Action": "Load",
+      "Target": "Characters/Schedules/CatXue,Characters/Dialogue/CatJiu",
+      "FromFile": "assets/Data/Empty.json"
+    },
+    {
+      "LogName": "行程",
+      "Action": "Include",
+      "FromFile": "assets/NPC/CatXueSchedules.json,assets/NPC/CatJiuSchedules.json"
+    },
+    {
+      "LogName": "对话-Empty",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/CatXue,Characters/Dialogue/CatJiu",
+      "FromFile": "assets/Data/Empty.json"
+    },
+    {
+      "LogName": "对话文件",
+      "Action": "Include",
+      "FromFile": "assets/NPC/CatXueDialogue.json,assets/NPC/CatJiuDialogue.json,assets/NPC/Dialogue.json"
+    },
+    {
+      "LogName": "动作",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "sleep": "16/16/16"
+      }
+    },
+    {
+      "LogName": "动作对话",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "sleep": "{{i18n:sleep}}"
+      }
+    },
+    {
+      "LogName": "电影零食喜好",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "CatXue": {
+          "Name": "CatXue",
+          "LovedTags": [
+            "Cottony",
+            "Fries",
+          ],
+          "LikedTags": [
+            "Cotton",
+            "Fries",
+          ],
+          "DislikedTags": [
+            "Cotton",
+            "Fries",
+          ]
+        },
+        "CatJiu": {
+          "Name": "CatJiu",
+          "LovedTags": [
+            "Cotton",
+            "Fries",
+          ],
+          "LikedTags": [
+            "Cottony",
+            "Fries",
+          ],
+          "DislikedTags": [
+            "Cottony",
+            "Fries",
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "清雪-电影对话",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "CatXue": {
+          "NPCName": "CatXue",
+          "Reactions": [
+            {
+              "LogName": "清雪-小树苗",
+              "Tag": "spring_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.AfterMovie2}}"
+                }
+              },
+              "ID": "reaction_2"
+            },
+            {
+              "LogName": "清雪-草原之王",
+              "Tag": "summer_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.AfterMovie3}}"
+                }
+              },
+              "ID": "reaction_3"
+            },
+            {
+              "LogName": "清雪-神秘事迹",
+              "Tag": "fall_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.AfterMovie4}}"
+                }
+              },
+              "ID": "reaction_4"
+            },
+            {
+              "LogName": "清雪-牧场奇迹",
+              "Tag": "winter_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.AfterMovie5}}"
+                }
+              },
+              "ID": "reaction_5"
+            },
+            {
+              "LogName": "清雪-探索世界",
+              "Tag": "spring_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.AfterMovie6}}"
+                }
+              },
+              "ID": "reaction_6"
+            },
+            {
+              "LogName": "清雪-温不斯",
+              "Tag": "summer_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.AfterMovie7}}"
+                }
+              },
+              "ID": "reaction_7"
+            },
+            {
+              "LogName": "清雪-雨中嚎叫",
+              "Tag": "fall_movie_1",
+              "Response": "hate",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.BeforeMoviehate}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.DuringMoviehate}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.AfterMoviehate}}"
+                }
+              },
+              "ID": "reaction_8"
+            },
+            {
+              "LogName": "清雪-特快列车",
+              "Tag": "winter_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatXue.AfterMovie9}}"
+                }
+              },
+              "ID": "reaction_9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "清酒-电影对话",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "CatJiu": {
+          "NPCName": "CatJiu",
+          "Reactions": [
+            {
+              "LogName": "清酒-小树苗",
+              "Tag": "spring_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.AfterMovie2}}"
+                }
+              },
+              "ID": "reaction_2"
+            },
+            {
+              "LogName": "清酒-草原之王",
+              "Tag": "summer_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.AfterMovie3}}"
+                }
+              },
+              "ID": "reaction_3"
+            },
+            {
+              "LogName": "清酒-神秘事迹",
+              "Tag": "fall_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.AfterMovie4}}"
+                }
+              },
+              "ID": "reaction_4"
+            },
+            {
+              "LogName": "清酒-牧场奇迹",
+              "Tag": "winter_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.AfterMovie5}}"
+                }
+              },
+              "ID": "reaction_5"
+            },
+            {
+              "LogName": "清酒-探索世界",
+              "Tag": "spring_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.AfterMovie6}}"
+                }
+              },
+              "ID": "reaction_6"
+            },
+            {
+              "LogName": "清酒-温不斯",
+              "Tag": "summer_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.AfterMovie7}}"
+                }
+              },
+              "ID": "reaction_7"
+            },
+            {
+              "LogName": "清酒-雨中嚎叫",
+              "Tag": "fall_movie_1",
+              "Response": "hate",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.BeforeMoviehate}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.DuringMoviehate}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.AfterMoviehate}}"
+                }
+              },
+              "ID": "reaction_8"
+            },
+            {
+              "LogName": "清酒-特快列车",
+              "Tag": "winter_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.BeforeMovielike}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.DuringMovielike}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:CatJiu.AfterMovie9}}"
+                }
+              },
+              "ID": "reaction_9"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

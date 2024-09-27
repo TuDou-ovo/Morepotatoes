@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Eggtwistingmachine",
+            "Entries": {
+                "Introduction": "{{i18n:Eggtwistingmachine_Introduction}}", //初见
+                "spring": "{{i18n:Eggtwistingmachine_spring}}",
+            }
+        }
+    ]
+}

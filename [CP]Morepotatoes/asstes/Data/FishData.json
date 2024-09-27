@@ -1,0 +1,141 @@
+{
+    "Changes": [
+        {
+            "LogName": "鱼缸贴图",
+            "Action": "Load",
+            "Target": "Mods/Morepotatoes/AquariumFish",
+            "FromFile": "assets/Objects/AquariumFish.png"
+        },
+        {
+            "LogName": "鱼缸数据",
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "cxx.zhidaishuimu": "0/crawl/////Mods\\Morepotatoes\\AquariumFish",
+            }
+        },
+        {
+            "LogName": "鱼数据",
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "鱼英文名": "鱼英文名/频率15-100/小游戏浮标行为mixed、smooth、floater、sinker,dart/最小尺寸*2.54是厘米/最大尺寸*2.54是厘米/可以钓的600 2400/季节春spring夏summer秋fall冬winter/晴雨天both*rainy/这一串是概率什么的要算有点辅助还是看wiki吧690 .4 685 .1/4/.3/.5/0最低捕鱼水平出现",
+                "鱼英文名": "鱼英文名/频率15-100/小游戏浮标行为mixed、smooth、floater、sinker,dart/最小尺寸*2.54是厘米/最大尺寸*2.54是厘米/可以钓的600 2400/季节春spring夏summer秋fall冬winter/晴雨天both*rainy/这一串是概率什么的要算有点辅助还是看wiki吧690 .4 685 .1/4/.3/.5/0最低捕鱼水平出现",
+            }
+        },
+        {
+            "LogName": "鱼刷新位置",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {
+                "地图名字": {
+                    "Fish": [
+                        {
+                            "ItemId": "鱼王英文名",
+                            "Condition": "SEASON 春spring夏summer秋fall冬winter", //季节
+                            "CatchLimit": 1, //最大可以钓多少只
+                            "Precedence": -200, //优先级
+                            "IsBossFish": true, //是不是鱼王
+                            "MinFishingLevel": 10, //钓鱼等级
+                            "BobberPosition": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 宽,
+                                "Height": 高
+                            }
+                        }, //在哪个区域甩钩
+                        {
+                            "ItemId": "鱼英文名",
+                            "Condition": "SEASON 春spring夏summer秋fall冬winter"
+                        }, //带条件的
+                        {
+                            "ItemId": "鱼英文名"
+                        }, //不带条件的
+                        {
+                            "ItemId": "152海草"
+                        }, //想钓什么写什么，垃圾家具都行
+                        {
+                            "ItemId": "153绿澡"
+                        },
+                        {
+                            "ItemId": "157白澡"
+                        },
+                        {
+                            "ItemId": "172报纸"
+                        },
+                        {
+                            "ItemId": "171cd"
+                        },
+                        {
+                            "ItemId": "170眼镜"
+                        },
+                        {
+                            "ItemId": "169浮木"
+                        },
+                        {
+                            "ItemId": "167可乐"
+                        },
+                        {
+                            "ItemId": "168垃圾"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "鱼塘",
+            "Action": "EditData",
+            "Target": "Data/FishPondData",
+            "Entries": {
+                "鱼英文名": {
+                    "RequiredTags": [
+                        "item_鱼英文名"
+                    ],
+                    "Precedence": 0, //优先级
+                    "SpawnTime": -1, //繁殖时间
+                    "ProducedItems": [ //产出物品
+                        {
+                            "RequiredPopulation": 10, //鱼塘鱼数量
+                            "Chance": 0.00, //概率
+                            "ItemID": 物品id,
+                            "MinQuantity": 最小数量,
+                            "MaxQuantity": 最大数量
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.10, //概率
+                            "ItemID": 物品id,
+                            "MinQuantity": 最小数量,
+                            "MaxQuantity": 最大数量
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.20, //概率
+                            "ItemID": 物品id,
+                            "MinQuantity": 最小数量,
+                            "MaxQuantity": 最大数量
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.30, //概率
+                            "ItemID": 物品id,
+                            "MinQuantity": 最小数量,
+                            "MaxQuantity": 最大数量
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "id 数量"
+                        ],
+                        "4": [
+                            "id 数量"
+                        ],
+                        "8": [
+                            "id 数量"
+                        ]
+                    }
+                }
+            }
+        } //升级需要的物品
+    ]
+}

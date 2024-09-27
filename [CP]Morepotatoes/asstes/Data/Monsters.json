@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "LogName": "怪物贴图",
+            "Action": "Load",
+            "Target": "Characters/Monsters/怪物英文名",
+            "FromFile": "assets/Monsters/贴图名字.png"
+        },
+        {
+            "LogName": "怪物",
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "Entries": {
+                "怪物英文名": "血量/攻击/最小硬币下降0/最大硬币下降0/飞行怪物false-true/随机运动持续时间1000/要删除的对象766 .75 766 .05 153 .1 66 .015 92 .15 96 .005 99 .001/防御1/神经过敏？？.01/仇恨距离格4/速度2/攻击机会缺失.00/无论是“矿怪”true/战斗经验3/{{i18n:怪物英文名.name}}"
+            }
+        }
+    ]
+}

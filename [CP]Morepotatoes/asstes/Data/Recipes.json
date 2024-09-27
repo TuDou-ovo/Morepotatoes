@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "LogName": "物品配方",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "物品英文名": "物品id 数量 物品英文名 数量/Home/物品/false-不可拆解/Foraging 数量/{{i18n:物品英文名.name}}", //开局解锁
+                "物品英": "物品id 数量 物品英文名 数量/Home/物品英文名/false-不可拆解/Foraging 数量/{{i18n:物品英文名.name}}"
+            }
+        },
+        {
+            "LogName": "料理配方",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "英文名": "物品id 数量 物品英文名 数量/10 10/料理/f 角色英文名 好感度心级/{{i18n:料理英文名.name}}", //好感度解锁//绑定信件
+                "英文": "物品id 数量 物品英文名 数量/10 10/料理/default/{{i18n料理.name}}",
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{"Changes": [
+
+{"LogName":"清雪-日常对话",
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/CatXue",
+ "Entries": {
+
+"Introduction": "{{i18n:Xue_Introduction}}",//初见
+"GreenRain":"{{i18n:Xue_GreenRain}}",//绿雨
+"MovieInvitation": "{{i18n:Xue_MovieInvitation}}",//电影邀请
+"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Xue_RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Xue_RejectMovieTicket_AlreadyWatchedThisWeek}}",
+"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Xue_RejectMovieTicket_DontWantToSeeThatMovie}}",
+"RejectMovieTicket": "{{i18n:Xue_RejectMovieTicket}}",
+"HitBySlingshot": "{{i18n:Xue_HitBySlingshot}}",
+"joja_Begin": "{{i18n:Xue_joja_Begin}}",
+"movieTheater": "{{i18n:Xue_movieTheater}}",
+"GreenRainFinished": "{{i18n:Xue_GreenRainFinished}}",
+"DumpsterDiveComment": "{{i18n:Xue_DumpsterDive}}",
+
+"give_flowersA": "{{i18n:Xue_give_flowersA}}",
+"give_flowersB": "{{i18n:Xue_give_flowersB}}",
+"rejectNPCA": "？",
+"rejectNPCB": "？",
+"reject_two_heartA": "？",
+"reject_two_heartB": "？",
+"reject_four_heartA": "？",
+"reject_four_heartB": "？",
+
+"Resort": "{{i18n:Xue_Resort}}",//姜岛
+"Resort_Bar": "{{i18n:Xue_Resort_Bar}}",//酒吧
+"Resort_Chair": "{{i18n:Xue_Resort_Chair}}",//椅子
+"Resort_Dance": "{{i18n:Xue_Resort_Dance}}",//跳舞
+"Resort_Entering": "{{i18n:Xue_Resort_Entering}}",//上船
+"Resort_Leaving": "{{i18n:Xue_Resort_Leaving}}",//回家
+"Resort_Shore": "{{i18n:Xue_Resort_Shore}}",//海边
+"Resort_Towel": "{{i18n:Xue_Resort_Towel}}",//毛巾
+"Resort_Umbrella": "{{i18n:Xue_Resort_Umbrella}}",//太阳伞
+"Resort_Wander": "{{i18n:Xue_Resort_Wander}}",//逛街
+
+"AcceptBirthdayGift_Loved": "{{i18n:Xue_AcceptBirthdayGift_Loved}}",//最爱
+"AcceptBirthdayGift_Liked": "{{i18n:Xue_AcceptBirthdayGift_Liked}}",//喜欢
+"AcceptBirthdayGift_Neutral": "{{i18n:Xue_AcceptBirthdayGift_Neutral}}",//一般
+"AcceptBirthdayGift_Disliked": "{{i18n:Xue_AcceptBirthdayGift_Disliked}}",//不喜欢
+"AcceptBirthdayGift_Hated": "{{i18n:Xue_AcceptBirthdayGift_Hated}}",//讨厌
+"AcceptGift_(O)StardropTea": "{{i18n:Xue_StardropTea}}",//星茶
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+"AcceptGift_(O)": "{{i18n:Xue_}}",
+
+"spring_1_2": "{{i18n:Xue_spring_1_2}}",
+"spring_12":"{{i18n:Xue_spring_12}}",
+"spring_23":"{{i18n:Xue_spring_23}}",
+
+"summer_1": "{{i18n:Xue_summer_1}}",
+"summer_10":"{{i18n:Xue_summer_10}}",
+"summer_27":"{{i18n:Xue_summer_27}}",
+
+"fall_1": "{{i18n:Xue_fall_1}}",
+"fall_26":"{{i18n:Xue_fall_26}}",
+"fall_15":"{{i18n:Xue_fall_15}}",
+
+"winter_1": "{{i18n:Xue_winter_1}}",
+"winter_7":"{{i18n:Xue_winter_7}}",
+"winter_14":"{{i18n:Xue_winter_14}}",
+"winter_24":"{{i18n:Xue_winter_24}}",
+
+"Mon": "{{i18n:Xue_Mon}}",
+"Tue": "{{i18n:Xue_Tue}}", 
+"Wed": "{{i18n:Xue_Wed}}",
+"Thu": "{{i18n:Xue_Thu}}",
+"Fri": "{{i18n:Xue_Fri}}",
+"Sat": "{{i18n:Xue_Sat}}",  
+"Sun": "{{i18n:Xue_Sun}}",
+"Mon6": "{{i18n:Xue_Mon6}}",
+"Tue6": "{{i18n:Xue_Tue6}}", 
+"Wed6": "{{i18n:Xue_Wed6}}",
+"Thu6": "{{i18n:Xue_Thu6}}",
+"Fri6": "{{i18n:Xue_Fri6}}",
+"Sat6": "{{i18n:Xue_Sat6}}",  
+"Sun6": "{{i18n:Xue_Sun6}}",
+}}]}

@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {
+            "LogName": "作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "种子英文名": {
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ], //阶段生长天数
+                    "Seasons": [
+                        "春spring夏summer秋fall冬winter"
+                    ], //季节
+                    "RegrowDays": -1, //-单次收获 1收获间隔天数
+                    "IsRaised": false, //是不是拦路的
+                    "HarvestItemId": "作物英文名",
+                    "HarvestMethod": "手0镰刀1", //收获方式
+                    "Texture": "Mods/potato.cxxcp/Crops", //贴图文件名
+                    "SpriteIndex": 0
+                },
+            }
+        }, //位置
+        {
+            "LogName": "果树",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "树苗英文名": {
+                    "DisplayName": "树苗英文名",
+                    "Seasons": [
+                        "春spring夏summer秋fall冬winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "Id": "Default",
+                            "ItemId": "(O)作物英文名"
+                        }
+                    ],
+                    "Texture": "Mods/potato.cxxcp/FruitTrees", //贴图
+                    "TextureSpriteRow": 0
+                }
+            }
+        }
+    ]
+}

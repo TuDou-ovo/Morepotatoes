@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "LogName": "替换",
+            "Action": "EditMap",
+            "Target": "Maps/替换的地图",
+            "FromFile": "map/文件名字.tmx",
+            "ToArea": {
+                "X":左上角,
+                "Y":左上角,
+                "Width":宽,
+                "Height":高
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "传送点",
+            "Action": "EditMap",
+            "Target": "Maps/地图名字",
+            "AddWarps": [
+                "1 10 cxxmap.TangfHome1 7 14"
+            ],
+            "MapProperties": {
+                "NPCWarp": "1 10 cxxmap.TangfHome1 7 14"
+            }
+        }
+    ]
+}

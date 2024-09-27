@@ -1,0 +1,29 @@
+{
+    "Changes": [
+        {
+            "LogName": "CJB-分类",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+            "Entries": {
+                "{{ModId}}_cjb": {
+                    "Id": "{{ModId}}_cjb",
+                    "DisplayName": "{{i18n:cjb}}"
+                }
+            }
+        },
+        {
+            "LogName": "CJB-传送点",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Entries": {
+                "{{ModId}}_Catshop": {
+                    "Id": "{{ModId}}_Catshop",
+                    "SectionId": "{{ModId}}_cjb",
+                    "DisplayName": "{{i18n:cjb_Catshop}}",
+                    "Location": "Custom_Morepotatoes.Catshop",
+                    "Tile": "58, 33"
+                },
+            }
+        }
+    ]
+}

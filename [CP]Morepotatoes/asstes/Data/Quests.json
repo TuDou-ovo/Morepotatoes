@@ -1,0 +1,54 @@
+{
+    "Changes": [
+        {
+            "LongName": "添加新特殊任务",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "角色": {
+                    "Name": "[订单名称]",
+                    "Requester": "角色",
+                    "Duration": "Month",
+                    "Repeatable": "False",
+                    "RequiredTags": //出现的条件 没有就留空
+                    "season_季节,event_事件,mail_邮件,rule_指定规则↓,dropbox_指定的这个正在被使用↓,island姜岛解锁,knows_已经认识了哪个角色",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[任务内容]", //我发布了一个新任务，谁来帮帮咱~~
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[该做些什么]", //收集一些虫肉。
+                            "RequiredCount": "100", //数量
+                            "Data": {
+                                "AcceptedContextTags": "item_物品英文名"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[Willy_Objective_1_Text]",
+                            "RequiredCount": "100",
+                            "Data": {
+                                "DropBox": "添加的名字",
+                                "DropBoxGameLocation": "地图",
+                                "DropBoxIndicatorLocation": "x y",
+                                "AcceptedContextTags": "item_物品"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "50000"
+                            }
+                        },
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,706 @@
+{
+    "Changes": [
+        {
+            "LogName": "机器",
+            "Action": "Load",
+            "Target": "Mods/Morepotatoes/animation",
+            "FromFile": "assets/Objects/animation.png"
+        },
+        {
+            "LogName": "帽子",
+            "Action": "Load",
+            "Target": "Mods/Morepotatoes/Hats",
+            "FromFile": "assets/Objects/Hats.png"
+        },
+        {
+            "LogName": "物品",
+            "Action": "Load",
+            "Target": "Mods/Morepotatoes/Objects",
+            "FromFile": "assets/Objects/Objects.png"
+        },
+        {
+            "LogName": "帽子",
+            "Action": "EditData",
+            "Target": "Data/Hats",
+            "Entries": {
+                "Morepotatoes.": "Morepotatoes./{{i18n:Morepotatoes.de}}/false/true//{{i18n:Morepotatoes.name}}/0贴图位置/assets\\Objects\\Hats"
+            }
+        },
+        {
+            "LogName": "烤箱",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:家具id.name}}",
+                    "Description": "{{i18n:家具id.de}}",
+                    "Price": 500, //价格
+                    "CanBePlacedOutDoors": true, //户外
+                    "CanBePlacedIndoors": true, //室内
+                    "Texture": "Mods/Morepotatoes/animation",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "跟随戒指",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:戒指id.name}}",
+                    "Description": "{{i18n:戒指id.de}}",
+                    "Type": "Ring",
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0,
+                    "Buffs": null,
+                    "ExcludeFromFishingCollection": true, //从钓鱼收藏中排除
+                    "ExcludeFromShippingCollection": true, //从发货收款中排除
+                    "ExcludeFromRandomSale": true, //从随机销售中排除
+                    "CustomFields": {
+                        "PeacefulEnd.CustomCompanions/Companions/Variety": 2, //最大数量
+                        "PeacefulEnd.CustomCompanions/Companions/0/Id": "ExampleAuthor.ExamplePack.ExampleFlyingCompanion", //这应该是companion.json的Name属性的值。
+                        "PeacefulEnd.CustomCompanions/Companions/0/NumberToSummon": 1, //这应该是该类型召唤的同伴数量。
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "土豆鱼",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:鱼英文名.name}}",
+                    "Description": "{{i18n:鱼英文名.de}}",
+                    "Type": "Fish",
+                    "Category": -4, //类别
+                    "Price": 0, //价格
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": "0", //贴图位置
+                    "Edibility": 0
+                }
+            }
+        },
+        {
+            "LogName": "油鱼",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "DisplayName": "{{i18n:鱼英文名.name}}",
+                    "Description": "{{i18n:鱼英文名.de}}",
+                    "Type": "Fish",
+                    "Category": -4, //类别
+                    "Price": 0, //价格
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": "0", //贴图位置
+                    "Edibility": 0
+                }
+            }
+        },
+        {
+            "LogName": "伏特加",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆淀粉",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "沙地马铃薯种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "沙地马铃薯",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆树树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "发芽土豆",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆地雷种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆地雷",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆宝石",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "古代土豆",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆图腾",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "薯条围栏",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:物品英文名.name}}",
+                    "Description": "{{i18n:物品英文名.de}}",
+                    "Type": "objects/Basic", //蓝底/没蓝底
+                    "Category": 0, //标签
+                    "Price": 0, //价格
+                    "Edibility": -300, //可食性-是不可食用
+                    "ExcludeFromRandomSale": "true", //不需要发货
+                    "Texture": "Mods/Morepotatoes/Objects", //贴图
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆粉",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "三不沾",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆炒马铃薯",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "西红柿条",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "姜丝炒土豆丝",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "糖焗土豆泥",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "烤土豆",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "脆薯",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "油炸的{O}",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Morepotatoes.": {
+                    "Name": "Morepotatoes.",
+                    "Displayname": "{{i18n:菜品英文名.name}}",
+                    "Description": "{{i18n:菜品英文名.de}}",
+                    "Type": "objects/Basic", //有蓝底/没有
+                    "Category": -7, //物品标签
+                    "Price": 0, //价格
+                    "Edibility": 50, //可食性
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "Id": "Food", //类别
+                            "BuffId": null,
+                            "Duration": 0, //持续时间/游戏内时间
+                            "IsDebuff": false, //是负面buff
+                            "GlowColor": null, //发光颜色
+                            "CustomAttributes": {
+                                "FarmingLevel": 0, //耕种
+                                "FishingLevel": 0, //钓鱼
+                                "MiningLevel": 0, //挖掘
+                                "LuckLevel": 0, //幸运
+                                "ForagingLevel": 0, //觅食
+                                "MaxStamina": 0, //体力
+                                "MagneticRadius": 0, //磁力
+                                "Speed": 0, //速度
+                                "Defense": 0, //防御
+                                "Attack": 0
+                            }, //攻击
+                            "CustomFields": null
+                        }
+                    ], //自定义
+                    "Texture": "Mods/Morepotatoes/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+    ]
+}

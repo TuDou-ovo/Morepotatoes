@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "LogName": "商店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "商店英文名": {
+                    "Owners": [
+                        {
+                            "Name": "店主英文名",
+                            "Dialogues": [
+                                {
+                                    "Id": "商店英文名Open",
+                                    "Dialogue": "{{i18n:商店英文名.de}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "None是没角色",
+                            "ClosedMessage": "{{i18n:商店英文名.cde}}"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "物品id",
+                            "Price": 价格,
+                            "ItemId": "(O)物品id",
+                            "Condition": "SEASON 春spring夏summer秋fall冬winter"
+                        },
+                        {
+                            "Id": "id",
+                            "Price": 500,
+                            "ItemId": "(O)id",
+                            "IsRecipe": true
+                        }
+                    ]
+                }
+            }
+        } //是配方
+    ]
+}
