@@ -1,28 +1,66 @@
 {
     "Changes": [
         {
-            "LogName": "替换",
+            "LogName": "地图家具",
+            "Action": "EditData",
+            "Target": "Data/ChairTiles",
+            "Entries": {
+                "ID/17/6": "1/1/down/default/1/1/false"
+            }
+        },
+        {
+            "LogName": "商店入口",
             "Action": "EditMap",
-            "Target": "Maps/替换的地图",
-            "FromFile": "map/文件名字.tmx",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Map/Storeentrance.tmx",
             "ToArea": {
-                "X":左上角,
-                "Y":左上角,
-                "Width":宽,
-                "Height":高
+                "X": 0,
+                "Y": 0,
+                "Width": 0,
+                "Height": 0
             },
             "Update": "OnLocationChange"
         },
         {
-            "LogName": "传送点",
+            "LogName": "小镇传送点",
             "Action": "EditMap",
-            "Target": "Maps/地图名字",
+            "Target": "Maps/Town",
             "AddWarps": [
-                "1 10 cxxmap.TangfHome1 7 14"
+                "传送x y Custom_Morepotatoes.Catshop 落地x y"
             ],
             "MapProperties": {
-                "NPCWarp": "1 10 cxxmap.TangfHome1 7 14"
+                "NPCWarp": "传送x y Custom_Morepotatoes.Catshop 落地x y"
             }
-        }
+        },
+        {
+            "LogName": "猫商传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.Catshop",
+            "AddWarps": [
+                "传送x y Town 落地x y"
+            ],
+            "MapProperties": {
+                "NPCWarp": "传送x y Town 落地x y"
+            }
+        },
+        {
+            "LongName": "地图交互点",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Catshop": "{{i18n:Catshop}}",
+                "Catshop1": "{{i18n:Catshop1}}",
+                "Catshop2": "{{i18n:Catshop2}}",
+                "Catshop3": "{{i18n:Catshop3}}",
+                "Catshop4": "{{i18n:Catshop4}}",
+                "Catshop5": "{{i18n:Catshop5}}",
+                "Catshop6": "{{i18n:Catshop6}}",
+                "Catshop7": "{{i18n:Catshop7}}",
+                "Catshop8": "{{i18n:Catshop8}}",
+                "Catshop9": "{{i18n:Catshop9}}",
+                "Catshop10": "{{i18n:Catshop10}}",
+
+            }
+        },
     ]
 }

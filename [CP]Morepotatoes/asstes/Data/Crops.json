@@ -2,45 +2,81 @@
     "Changes": [
         {
             "LogName": "作物",
+            "Action": "Load",
+            "Target": "Mods/Morepotatoes/Crops",
+            "FromFile": "assets/Objects/Crops.png"
+        },
+        {
+            "LogName": "果树",
+            "Action": "Load",
+            "Target": "Mods/Morepotatoes/FruitTrees",
+            "FromFile": "assets/Objects/FruitTrees.png"
+        },
+        {
+            "LogName": "沙地马铃薯作物",
             "Action": "EditData",
             "Target": "Data/Crops",
             "Entries": {
-                "种子英文名": {
+                "Morepotatoes.Desertpotatoes_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        2,
+                        1
+                    ],
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "RegrowDays": 1,
+                    "IsRaised": false,
+                    "HarvestItemID": "Morepotatoes.Desertpotatoes",
+                    "HarvestMethod": "0",
+                    "Texture": "Mods/Morepotatoes/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "土豆地雷作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "Morepotatoes.PotatoMine_seed": {
                     "DaysInPhase": [
                         1,
                         1,
                         1,
                         1
-                    ], //阶段生长天数
+                    ],
                     "Seasons": [
-                        "春spring夏summer秋fall冬winter"
-                    ], //季节
-                    "RegrowDays": -1, //-单次收获 1收获间隔天数
-                    "IsRaised": false, //是不是拦路的
-                    "HarvestItemId": "作物英文名",
-                    "HarvestMethod": "手0镰刀1", //收获方式
-                    "Texture": "Mods/potato.cxxcp/Crops", //贴图文件名
-                    "SpriteIndex": 0
-                },
+                        "spring summer fall winter"
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemID": "Morepotatoes.PotatoMine",
+                    "HarvestMethod": "0",
+                    "Texture": "Mods/Morepotatoes/Crops",
+                    "SpriteIndex": 1
+                }
             }
-        }, //位置
+        },
         {
-            "LogName": "果树",
+            "LogName": "土豆树果树",
             "Action": "EditData",
             "Target": "Data/FruitTrees",
             "Entries": {
-                "树苗英文名": {
-                    "DisplayName": "树苗英文名",
+                "Morepotatoes.Potatotree_seed": {
+                    "DisplayName": "Morepotatoes.Potatotree_seed",
                     "Seasons": [
-                        "春spring夏summer秋fall冬winter"
+                        "spring summer fall winter"
                     ],
                     "Fruit": [
                         {
-                            "Id": "Default",
-                            "ItemId": "(O)作物英文名"
+                            "ID": "Default",
+                            "ItemID": "(O)Morepotatoes.Sproutedpotatoes"
                         }
                     ],
-                    "Texture": "Mods/potato.cxxcp/FruitTrees", //贴图
+                    "Texture": "Mods/Morepotatoes/FruitTrees",
                     "TextureSpriteRow": 0
                 }
             }

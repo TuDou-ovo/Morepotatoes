@@ -1,120 +1,129 @@
-{"Format": "2.0.0",
-
-
-"CustomLocations": [
-
-{"LogName": "加载地图-猫猫商店",
- "Name": "Custom_Morepotatoes.Catshop", 
- "FromMapFile": "assets/Map/Catshop.tmx"},
-
-//{"LogName": "加载地图-猫猫的家",
-// "Name": "Custom_Morepotatoes.Cathome", 
-// "FromMapFile": "assets/Map/Cathome.tmx"},
-
-//{"LogName": "加载地图-土豆平原",
-// "Name": "Custom_Morepotatoes.plain", 
-// "FromMapFile": "assets/Map/plain.tmx"},
-
-//{"LogName": "加载地图-宫殿",
-// "Name": "Custom_Morepotatoes.palace", 
-// "FromMapFile": "assets/Map/palace.tmx"},
-
-//{"LogName": "加载地图-宫殿温室",
-// "Name": "Custom_Morepotatoes.greenhouse", 
-// "FromMapFile": "assets/Map/greenhouse.tmx"},
-
-//{"LogName": "加载地图-宫殿卧室",
-// "Name": "Custom_Morepotatoes.plainhome", 
-// "FromMapFile": "assets/Map/plainhome.tmx"},
-
-//{"LogName": "加载地图-矿井",
-// "Name": "Custom_Morepotatoes.mine1", 
-// "FromMapFile": "assets/Map/mine.tmx"},
-
-//{"LogName": "加载地图-矿井",
-// "Name": "Custom_Morepotatoes.mine2", 
-// "FromMapFile": "assets/Map/mine.tmx"},
-
-//{"LogName": "加载地图-矿井",
-// "Name": "Custom_Morepotatoes.mine3", 
-// "FromMapFile": "assets/Map/mine.tmx"},
-],
-
-
-"Changes":[
-
-{"LogName": "音乐",
-  "Action": "EditData",
-  "Target": "Data/AudioChanges",
-  "Entries": 
-{"Morepotatoes.LittleStar": 
-{"ID": "Morepotatoes.LittleStar",
- "Category": "Music",
- "FilePaths": ["{{AbsoluteFilePath:asstes/Music/LittleStar.ogg}}"],
- "StreamedVorbis": false,
- "Looped": true}}},
-
-{"LogName": "家具",
-  "Action": "Include",
-  "FromFile": "assets/Data/BigCraftables.json"},  
-
-{"LogName": "建筑",
-  "Action": "Include",
-  "FromFile": "assets/Data/Buildings.json"},
-
-{"LogName": "CJB",
-  "Action": "Include",
-  "FromFile": "assets/Data/CJB.json,"},
-
-{"LogName": "植株",
-  "Action": "Include",
-  "FromFile": "assets/Data/Crops.json"}, 
-
-{"LogName": "事件",
-  "Action": "Include",
-  "FromFile": "assets/Data/Events.json,"},  
-
-{"LogName": "鱼数据",
-  "Action": "Include",
-  "FromFile": "assets/Data/FishData.json"}, 
-
-{"LogName": "帽子",
-  "Action": "Include",
-  "FromFile": "assets/Data/Hats.json"},
-
-{"LogName": "信件",
-  "Action": "Include",
-  "FromFile": "assets/Data/Mail.json,"},
-
-{"LogName": "地图",
-  "Action": "Include",
-  "FromFile": "assets/Data/Map.json,"},
-
-{"LogName": "角色",
-  "Action": "Include",
-  "FromFile": "assets/Data/NPC.json,"},
-
-{"LogName": "物品",
-  "Action": "Include",
-  "FromFile": "assets/Data/Objects.json,"},
-
-{"LogName": "任务",
-  "Action": "Include",
-  "FromFile": "assets/Data/Quests.json"},
-
-{"LogName": "配方",
-  "Action": "Include",
-  "FromFile": "assets/Data/Recipes.json"},
-
-{"LogName": "商店",
-  "Action": "Include",
-  "FromFile": "assets/Data/Shop.json,"},
-
-{"LogName": "特殊任务文本",
-  "Action": "Include",
-  "FromFile": "assets/Data/SpecialOrderStrings.json"},
-
-
-
-
-]}
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "pointer": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "beautify",
+      "Description": "是否启用自带的土豆主题鼠标指针"
+    },
+    "UI": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "beautify",
+      "Description": "是否启用自带的土豆主题UI"
+    }
+  },
+  "CustomLocations": [
+    {
+      "LogName": "加载地图-猫猫商店",
+      "Name": "Custom_Morepotatoes.Catshop",
+      "FromMapFile": "assets/Map/Catshop.tmx"
+    },
+    //{"LogName": "加载地图-猫猫的家",
+    // "Name": "Custom_Morepotatoes.Cathome", 
+    // "FromMapFile": "assets/Map/Cathome.tmx"},
+    //{"LogName": "加载地图-土豆平原",
+    // "Name": "Custom_Morepotatoes.plain", 
+    // "FromMapFile": "assets/Map/plain.tmx"},
+    //{"LogName": "加载地图-土豆村庄",
+    // "Name": "Custom_Morepotatoes.village", 
+    // "FromMapFile": "assets/Map/village.tmx"},
+    //{"LogName": "加载地图-宫殿",
+    // "Name": "Custom_Morepotatoes.palace", 
+    // "FromMapFile": "assets/Map/palace.tmx"},
+    //{"LogName": "加载地图-宫殿温室",
+    // "Name": "Custom_Morepotatoes.greenhouse", 
+    // "FromMapFile": "assets/Map/greenhouse.tmx"},
+    //{"LogName": "加载地图-宫殿卧室",
+    // "Name": "Custom_Morepotatoes.plainhome", 
+    // "FromMapFile": "assets/Map/plainhome.tmx"},
+    //{"LogName": "加载地图-矿井1",
+    // "Name": "Custom_Morepotatoes.mine1", 
+    // "FromMapFile": "assets/Map/mine.tmx"},
+    //{"LogName": "加载地图-矿井2",
+    // "Name": "Custom_Morepotatoes.mine2", 
+    // "FromMapFile": "assets/Map/mine.tmx"},
+    //{"LogName": "加载地图-矿井3",
+    // "Name": "Custom_Morepotatoes.mine3", 
+    // "FromMapFile": "assets/Map/mine.tmx"},
+  ],
+  "Changes": [
+    {
+      "LogName": "音乐",
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "Morepotatoes.LittleStar": {
+          "ID": "Morepotatoes.LittleStar",
+          "Category": "Music",
+          "FilePaths": [
+            "{{AbsoluteFilePath:asstes/Music/LittleStar.ogg}}"
+          ],
+          "StreamedVorbis": false,
+          "Looped": true
+        }
+      }
+    },
+    {
+      "LogName": "CJB",
+      "Action": "Include",
+      "FromFile": "assets/Data/CJB.json,"
+    },
+    {
+      "LogName": "作物",
+      "Action": "Include",
+      "FromFile": "assets/Data/Crops.json,"
+    },
+    {
+      "LogName": "事件",
+      "Action": "Include",
+      "FromFile": "assets/Data/Events.json,"
+    },
+    {
+      "LogName": "鱼数据",
+      "Action": "Include",
+      "FromFile": "assets/Data/FishData.json,"
+    },
+    {
+      "LogName": "地图",
+      "Action": "Include",
+      "FromFile": "assets/Data/Map.json,"
+    },
+    {
+      "LogName": "怪物",
+      "Action": "Include",
+      "FromFile": "assets/Data/MonSters.json,"
+    },
+    {
+      "LogName": "角色",
+      "Action": "Include",
+      "FromFile": "assets/Data/NPC.json,"
+    },
+    {
+      "LogName": "物品",
+      "Action": "Include",
+      "FromFile": "assets/Data/Objects.json,"
+    },
+    {
+      "LogName": "信件任务",
+      "Action": "Include",
+      "FromFile": "assets/Data/Queste.json,"
+    },
+    {
+      "LogName": "配方加工",
+      "Action": "Include",
+      "FromFile": "assets/Data/Recipes.json,"
+    },
+    {
+      "LogName": "商店",
+      "Action": "Include",
+      "FromFile": "assets/Data/Shop.json,"
+    },
+    {
+      "LogName": "武器",
+      "Action": "Include",
+      "FromFile": "assets/Data/Weapons.json,"
+    },
+  ]
+}

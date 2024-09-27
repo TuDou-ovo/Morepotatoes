@@ -5,8 +5,11 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "物品英文名": "物品id 数量 物品英文名 数量/Home/物品/false-不可拆解/Foraging 数量/{{i18n:物品英文名.name}}", //开局解锁
-                "物品英": "物品id 数量 物品英文名 数量/Home/物品英文名/false-不可拆解/Foraging 数量/{{i18n:物品英文名.name}}"
+                "Morepotatoes.Potatoring_Recipes": "材料ID 数量 材料ID 数量/Home/Morepotatoes.Potatoring/false是不可拆解/Foraging 数量/{{i18n:Potatoring_Recipes.name}}",
+                "Morepotatoes.Fryingpan_Recipes": "材料ID 数量 材料ID 数量/Home/Morepotatoes.Fryingpan/false是不可拆解/Foraging 数量/{{i18n:Fryingpan_Recipes.name}}",
+                "Morepotatoes.Potatostarch_Recipes": "材料ID 数量 材料ID 数量/Home/Morepotatoes.Potatostarch/false是不可拆解/Foraging 数量/{{i18n:Potatostarch_Recipes.name}}",
+                "Morepotatoes.PotatoTotem_Recipes": "材料ID 数量 材料ID 数量/Home/Morepotatoes.PotatoTotem/false是不可拆解/Foraging 数量/{{i18n:PotatoTotem_Recipes.name}}",
+                "Morepotatoes.Frenchfryfence_Recipes": "材料ID 数量 材料ID 数量/Home/Morepotatoes.Frenchfryfence/false是不可拆解/Foraging 数量/{{i18n:Frenchfryfence_Recipes.name}}",
             }
         },
         {
@@ -14,9 +17,105 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "英文名": "物品id 数量 物品英文名 数量/10 10/料理/f 角色英文名 好感度心级/{{i18n:料理英文名.name}}", //好感度解锁//绑定信件
-                "英文": "物品id 数量 物品英文名 数量/10 10/料理/default/{{i18n料理.name}}",
+                "Morepotatoes.Potatopowder_Recipes": "材料ID 数量 材料ID 数量/10 10/Morepotatoes.Potatopowder/default/{{i18n:Potatopowder_Recipes.name}}",
+                "Morepotatoes.airball_Recipes": "材料ID 数量 材料ID 数量/10 10/Morepotatoes.airball/default/{{i18n:airball_Recipes.name}}",
+                "Morepotatoes.potatoesandpotatoes_Recipes": "材料ID 数量 材料ID 数量/10 10/Morepotatoes.potatoesandpotatoes/default/{{i18n:potatoesandpotatoes_Recipes.name}}",
+                "Morepotatoes.Tomatostrips_Recipes": "材料ID 数量 材料ID 数量/10 10/Morepotatoes.Tomatostrips/default/{{i18n:Tomatostrips_Recipes.name}}",
+                "Morepotatoes.Gingerandpotatoes_Recipes": "材料ID 数量 材料ID 数量/10 10/Morepotatoes.Gingerandpotatoes/default/{{i18n:Gingerandpotatoes_Recipes.name}}",
+                "Morepotatoes.mashedpotato_Recipes": "材料ID 数量 材料ID 数量/10 10/Morepotatoes.mashedpotato/default/{{i18n:mashedpotato_Recipes.name}}",
+                "Morepotatoes.Spatula1_Recipes": "材料ID 数量 材料ID 数量/Home/Morepotatoes.Spatula1/false是不可拆解/Foraging 数量/{{i18n:Spatula1_Recipes.name}}",
+                "Morepotatoes.hammer1_Recipes": "材料ID 数量 材料ID 数量/Home/Morepotatoes.hammer1/false是不可拆解/Foraging 数量/{{i18n:hammer1_Recipes.name}}",
             }
-        }
+        },
+        {
+            "LogName": "油鱼加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)19",
+                "OutputRules"
+            ],
+            "Entries": {
+                "Morepotatoes.oilfish": {
+                    "Id": "{{ModId}}_oilfish",
+                    "Triggers": [
+                        {
+                            "Id": "{{ModId}}_oilfishr",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)247",
+                            "RequiredCount": 10
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_oilfisher",
+                            "ItemId": "(O)Morepotatoes.oilfish",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 50
+                }
+            }
+        },
+        {
+            "LogName": "伏特加加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)163",
+                "OutputRules"
+            ],
+            "Entries": {
+                "Morepotatoes.vodka": {
+                    "Id": "{{ModId}}_vodka",
+                    "Triggers": [
+                        {
+                            "Id": "{{ModId}}_vodkaTrigger",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)192",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_vodkaGiver",
+                            "ItemId": "(O)Morepotatoes.vodka",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 150
+                }
+            }
+        },
+        {
+            "LogName": "烤土豆加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)13",
+                "OutputRules"
+            ],
+            "Entries": {
+                "Morepotatoes.Bakedpotato": {
+                    "Id": "{{ModId}}_Bakedpotato",
+                    "Triggers": [
+                        {
+                            "Id": "{{ModId}}_BakedpotatoTrigger",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)192",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_BakedpotatoGiver",
+                            "ItemId": "(O)Morepotatoes.Bakedpotato",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 50
+                }
+            }
+        },
     ]
 }

@@ -1,9 +1,15 @@
 {
     "Changes": [
         {
-            "LogName": "单数生日",
+            "LogName": "事件xnb",
+            "Action": "Load",
+            "Target": "Data/Events/Custom_Morepotatoes.Catshop, Data/Events/Custom_Morepotatoes.Cathome, Data/Events/Custom_Morepotatoes.plain, Data/Events/Custom_Morepotatoes.palace, Data/Events/Custom_Morepotatoes.greenhouse, Data/Events/Custom_Morepotatoes.plainhome, Data/Events/Custom_Morepotatoes.mine1, Data/Events/Custom_Morepotatoes.mine2, Data/Events/Custom_Morepotatoes.mine3",
+            "FromFile": "assets/Events.xnb"
+        },
+        {
+            "LogName": "",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_TwosmallballsDongtian",
+            "Target": "Data/Events/",
             "Entries": {}
         }
     ]

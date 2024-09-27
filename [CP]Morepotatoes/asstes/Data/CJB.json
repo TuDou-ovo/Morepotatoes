@@ -21,7 +21,7 @@
                     "SectionId": "{{ModId}}_cjb",
                     "DisplayName": "{{i18n:cjb_Catshop}}",
                     "Location": "Custom_Morepotatoes.Catshop",
-                    "Tile": "58, 33"
+                    "Tile": "0, 0"
                 },
             }
         }

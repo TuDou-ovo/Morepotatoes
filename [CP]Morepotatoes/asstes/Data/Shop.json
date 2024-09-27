@@ -5,33 +5,33 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {
-                "商店英文名": {
+                "商店ID": {
                     "Owners": [
                         {
-                            "Name": "店主英文名",
+                            "Name": "店主ID",
                             "Dialogues": [
                                 {
-                                    "Id": "商店英文名Open",
-                                    "Dialogue": "{{i18n:商店英文名.de}}"
+                                    "ID": "商店IDOpen",
+                                    "Dialogue": "{{i18n:商店ID.de}}"
                                 }
                             ]
                         },
                         {
                             "Name": "None是没角色",
-                            "ClosedMessage": "{{i18n:商店英文名.cde}}"
+                            "ClosedMessage": "{{i18n:商店ID.cde}}"
                         }
                     ],
                     "Items": [
                         {
-                            "Id": "物品id",
+                            "ID": "物品ID",
                             "Price": 价格,
-                            "ItemId": "(O)物品id",
+                            "ItemID": "(O)物品ID",
                             "Condition": "SEASON 春spring夏summer秋fall冬winter"
                         },
                         {
-                            "Id": "id",
+                            "ID": "ID",
                             "Price": 500,
-                            "ItemId": "(O)id",
+                            "ItemID": "(O)ID",
                             "IsRecipe": true
                         }
                     ]

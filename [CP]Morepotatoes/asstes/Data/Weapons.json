@@ -11,10 +11,10 @@
             "Action": "EditData",
             "Target": "Data/Weapons",
             "Entries": {
-                "Morepotatoes.": {
-                    "Name": "Morepotatoes.",
-                    "DisplayName": "{{i18n:武器英文名.name}}",
-                    "Description": "{{i18n:武器英文名.de}}",
+                "Morepotatoes.BeanSproutSword": {
+                    "Name": "Morepotatoes.BeanSproutSword",
+                    "DisplayName": "{{i18n:BeanSproutSword.name}}",
+                    "Description": "{{i18n:BeanSproutSword.de}}",
                     "MinDamage": 1, //最小伤害
                     "MaxDamage": 2, //最大伤害
                     "Knockback": 1, //击退数值
@@ -38,10 +38,10 @@
             "Action": "EditData",
             "Target": "Data/Weapons",
             "Entries": {
-                "Morepotatoes.": {
-                    "Name": "Morepotatoes.",
-                    "DisplayName": "{{i18n:武器英文名.name}}",
-                    "Description": "{{i18n:武器英文名.de}}",
+                "Morepotatoes.Spatula1": {
+                    "Name": "Morepotatoes.Spatula1",
+                    "DisplayName": "{{i18n:Spatula1.name}}",
+                    "Description": "{{i18n:Spatula1.de}}",
                     "MinDamage": 1, //最小伤害
                     "MaxDamage": 2, //最大伤害
                     "Knockback": 1, //击退数值
@@ -65,10 +65,10 @@
             "Action": "EditData",
             "Target": "Data/Weapons",
             "Entries": {
-                "Morepotatoes.": {
-                    "Name": "Morepotatoes.",
-                    "DisplayName": "{{i18n:武器英文名.name}}",
-                    "Description": "{{i18n:武器英文名.de}}",
+                "Morepotatoes.hammer1": {
+                    "Name": "Morepotatoes.hammer1",
+                    "DisplayName": "{{i18n:hammer1.name}}",
+                    "Description": "{{i18n:hammer1.de}}",
                     "MinDamage": 1, //最小伤害
                     "MaxDamage": 2, //最大伤害
                     "Knockback": 1, //击退数值
@@ -92,10 +92,10 @@
             "Action": "EditData",
             "Target": "Data/Weapons",
             "Entries": {
-                "Morepotatoes.": {
-                    "Name": "Morepotatoes.",
-                    "DisplayName": "{{i18n:武器英文名.name}}",
-                    "Description": "{{i18n:武器英文名.de}}",
+                "Morepotatoes.Spatula11": {
+                    "Name": "Morepotatoes.Spatula11",
+                    "DisplayName": "{{i18n:Spatula11.name}}",
+                    "Description": "{{i18n:Spatula11.de}}",
                     "MinDamage": 1, //最小伤害
                     "MaxDamage": 2, //最大伤害
                     "Knockback": 1, //击退数值
@@ -119,10 +119,10 @@
             "Action": "EditData",
             "Target": "Data/Weapons",
             "Entries": {
-                "Morepotatoes.": {
-                    "Name": "Morepotatoes.",
-                    "DisplayName": "{{i18n:武器英文名.name}}",
-                    "Description": "{{i18n:武器英文名.de}}",
+                "Morepotatoes.hammer11": {
+                    "Name": "Morepotatoes.hammer11",
+                    "DisplayName": "{{i18n:hammer11.name}}",
+                    "Description": "{{i18n:hammer11.de}}",
                     "MinDamage": 1, //最小伤害
                     "MaxDamage": 2, //最大伤害
                     "Knockback": 1, //击退数值
@@ -146,10 +146,10 @@
             "Action": "EditData",
             "Target": "Data/Weapons",
             "Entries": {
-                "Morepotatoes.": {
-                    "Name": "Morepotatoes.",
-                    "DisplayName": "{{i18n:武器英文名.name}}",
-                    "Description": "{{i18n:武器英文名.de}}",
+                "Morepotatoes.Spatula111": {
+                    "Name": "Morepotatoes.Spatula111",
+                    "DisplayName": "{{i18n:Spatula111.name}}",
+                    "Description": "{{i18n:Spatula111.de}}",
                     "MinDamage": 1, //最小伤害
                     "MaxDamage": 2, //最大伤害
                     "Knockback": 1, //击退数值
@@ -173,10 +173,10 @@
             "Action": "EditData",
             "Target": "Data/Weapons",
             "Entries": {
-                "Morepotatoes.": {
-                    "Name": "Morepotatoes.",
-                    "DisplayName": "{{i18n:武器英文名.name}}",
-                    "Description": "{{i18n:武器英文名.de}}",
+                "Morepotatoes.hammer111": {
+                    "Name": "Morepotatoes.hammer111",
+                    "DisplayName": "{{i18n:hammer111.name}}",
+                    "Description": "{{i18n:hammer111.de}}",
                     "MinDamage": 1, //最小伤害
                     "MaxDamage": 2, //最大伤害
                     "Knockback": 1, //击退数值

@@ -1,6 +1,16 @@
 {
     "Changes": [
         {
+            "LogName": "信件",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "信件id": "{{i18n:信件id.1}}^{{i18n:信件id.2}}^^{{i18n:信件id.3}}^{{i18n:信件id.npc}}[#]{{i18n:信件id.name}}",
+                "信件id": "第一句话^前面是换行符号^^几个符号换几行^——署名%item cookingRecipe食谱/object物品/quest任务/conversationTopic主动性事件的话题 id 数量%%[#]这是一封给予单个物品信件的标题",
+                "信件id": "第一句话^前面是换行符号^^几个符号换几行^——署名%item object物品 id 数量 id 数量%%[#]这是一封给予随机物品信件的标题"
+            }
+        },
+        {
             "LongName": "添加新特殊任务",
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
@@ -37,7 +47,7 @@
                                 "DropBoxIndicatorLocation": "x y",
                                 "AcceptedContextTags": "item_物品"
                             }
-                        },
+                        }
                     ],
                     "Rewards": [
                         {
@@ -45,10 +55,41 @@
                             "Data": {
                                 "Amount": "50000"
                             }
-                        },
+                        }
                     ]
                 }
             }
-        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "UnlockableBundles/Bundles",
+            "Entries": {
+                "CatshopUnlockableBundles": { //捆绑密钥必须是唯一的！
+                    "Location": "Custom_Morepotatoes.Catshop", //您可以在smapi控制台中使用ub位置命令来获取当前位置名称
+                    "BundleDescription": "{{i18n:CatshopUnlockableBundles.de}}",
+                    "ShopPosition": "0, 0", //玩家与之交互的捆绑商店的坐标
+                    "ShopTexture": "MyModName/BridgeChunk", //包含捆绑商店纹理的游戏资源
+                    "DrawQuestionMark": false, //在商店纹理上方绘制黄色问号
+                    "QuestionMarkOffset": "32, 32",
+                    "Price": {
+                        "Morepotatoes.PotatoGemstone": 2,
+                        "Morepotatoes.Ancientpotatoes": 1,
+                        "Morepotatoes.Sproutedpotatoes": 5
+                    },
+                    "EditMap": "Maps/Custom_Morepotatoes.CatshopBridge", //购买后将应用的地图补丁
+                    "EditMapPosition": "0, 0" //应用“编辑地图”补丁的左上角坐标
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_Morepotatoes.CatshopBridge",
+            "FromFile": "assets/CatshopBridge.tmx"
+        },
+        { // Loading a 32x64 px texture of a broken off bridge that will replace the sign
+            "Action": "Load",
+            "Target": "Mods/Morepotatoes/CatshopBridgeChunk",
+            "FromFile": "assets/Objects/CatshopBridgeChunk.png"
+        },
     ]
 }
